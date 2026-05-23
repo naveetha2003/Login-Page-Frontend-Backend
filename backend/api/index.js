@@ -20,7 +20,8 @@ app.post("/login", (req, res) => {
     }
 })
 
-app.listen(5000,function()
-{
-    console.log("Server Started...")
-})
+app.get("/", (req, res) => {
+  res.send("Backend Running 🚀");
+});
+module.exports = app;
+
