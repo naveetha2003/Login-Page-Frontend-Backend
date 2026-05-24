@@ -30,7 +30,7 @@ function App() {
 
      function handleLogin(evt) {
 
-    fetch("https://login-page-frontend-backend.vercel.app/login", {
+    fetch("https://login-page-frontend-backend.vercel.app/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
